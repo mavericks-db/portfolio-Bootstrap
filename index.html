@@ -15,13 +15,13 @@
   <nav class="navbar justify-content-center">
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+        <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </nav>
@@ -61,7 +61,7 @@
   </div>
   <br><br><br>
   <!-- Works Section -->
-  <h2 class="h1 text-center">My Recent Works</h2>
+  <h2 class="h1 text-center" id="portfolio">My Recent Works</h2>
   <br><br>
   <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-4 mx-5">
     <div class="col-11 mx-auto">
@@ -77,11 +77,53 @@
           </div>
           <br>
           <div class="container-fluid">
-            <a href="#" class="btn btn-success d-grid col-4 mx-auto">See Project</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success d-grid col-4 mx-auto" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <button type="button" class="btn-close bg-secondary" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                  <div class="modal-header">
+                    <img src="./assets/project-detail-img.svg" alt="Project Detail Image" class="img-fluid">
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <h5 class="modal-title col-8" id="staticBackdropLabel">Keeping track of hundreds of
+                        components</h5>
+                      <button type="button" class="btn btn-success col p-1" data-bs-dismiss="modal">See live</button>
+                      <button type="button" class="btn btn-success col p-1">See source</button>
+                    </div>
+                    <div>
+                      <span class="badge bg-light text-secondary mt-3">Codekit</span>
+                      <span class="badge bg-light text-secondary mt-3">GitHub</span>
+                      <span class="badge bg-light text-secondary mt-3">JavaScript</span>
+                      <span class="badge bg-light text-secondary mt-3">Bootstrap</span>
+                      <span class="badge bg-light text-secondary mt-3">Terminal</span>
+                      <span class="badge bg-light text-secondary mt-3">Codepen</span>
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been
+                      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                      1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="col-11 mx-auto">
       <div class="card h-95">
         <img src="/assets/image-placeholder.svg" class="card-img-top" alt="" height="auto">
@@ -95,11 +137,53 @@
           </div>
           <br>
           <div class="container-fluid">
-            <a href="#" class="btn btn-success d-grid col-4 mx-auto">See Project</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success d-grid col-4 mx-auto" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <button type="button" class="btn-close bg-secondary" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                  <div class="modal-header">
+                    <img src="./assets/project-detail-img.svg" alt="Project Detail Image" class="img-fluid">
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <h5 class="modal-title col-8" id="staticBackdropLabel">Keeping track of hundreds of
+                        components</h5>
+                      <button type="button" class="btn btn-success col p-1" data-bs-dismiss="modal">See live</button>
+                      <button type="button" class="btn btn-success col p-1">See source</button>
+                    </div>
+                    <div>
+                      <span class="badge bg-light text-secondary mt-3">Codekit</span>
+                      <span class="badge bg-light text-secondary mt-3">GitHub</span>
+                      <span class="badge bg-light text-secondary mt-3">JavaScript</span>
+                      <span class="badge bg-light text-secondary mt-3">Bootstrap</span>
+                      <span class="badge bg-light text-secondary mt-3">Terminal</span>
+                      <span class="badge bg-light text-secondary mt-3">Codepen</span>
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been
+                      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                      1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="col-11 mx-auto">
       <div class="card h-95">
         <img src="/assets/image-placeholder.svg" class="card-img-top" alt="" height="auto">
@@ -113,11 +197,53 @@
           </div>
           <br>
           <div class="container-fluid">
-            <a href="#" class="btn btn-success d-grid col-4 mx-auto">See Project</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success d-grid col-4 mx-auto" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <button type="button" class="btn-close bg-secondary" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                  <div class="modal-header">
+                    <img src="./assets/project-detail-img.svg" alt="Project Detail Image" class="img-fluid">
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <h5 class="modal-title col-8" id="staticBackdropLabel">Keeping track of hundreds of
+                        components</h5>
+                      <button type="button" class="btn btn-success col p-1" data-bs-dismiss="modal">See live</button>
+                      <button type="button" class="btn btn-success col p-1">See source</button>
+                    </div>
+                    <div>
+                      <span class="badge bg-light text-secondary mt-3">Codekit</span>
+                      <span class="badge bg-light text-secondary mt-3">GitHub</span>
+                      <span class="badge bg-light text-secondary mt-3">JavaScript</span>
+                      <span class="badge bg-light text-secondary mt-3">Bootstrap</span>
+                      <span class="badge bg-light text-secondary mt-3">Terminal</span>
+                      <span class="badge bg-light text-secondary mt-3">Codepen</span>
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been
+                      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                      1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="col-11 mx-auto">
       <div class="card h-95">
         <img src="/assets/image-placeholder.svg" class="card-img-top" alt="" height="auto">
@@ -131,11 +257,53 @@
           </div>
           <br>
           <div class="container-fluid">
-            <a href="#" class="btn btn-success d-grid col-4 mx-auto">See Project</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success d-grid col-4 mx-auto" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <button type="button" class="btn-close bg-secondary" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                  <div class="modal-header">
+                    <img src="./assets/project-detail-img.svg" alt="Project Detail Image" class="img-fluid">
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <h5 class="modal-title col-8" id="staticBackdropLabel">Keeping track of hundreds of
+                        components</h5>
+                      <button type="button" class="btn btn-success col p-1" data-bs-dismiss="modal">See live</button>
+                      <button type="button" class="btn btn-success col p-1">See source</button>
+                    </div>
+                    <div>
+                      <span class="badge bg-light text-secondary mt-3">Codekit</span>
+                      <span class="badge bg-light text-secondary mt-3">GitHub</span>
+                      <span class="badge bg-light text-secondary mt-3">JavaScript</span>
+                      <span class="badge bg-light text-secondary mt-3">Bootstrap</span>
+                      <span class="badge bg-light text-secondary mt-3">Terminal</span>
+                      <span class="badge bg-light text-secondary mt-3">Codepen</span>
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been
+                      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                      1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="col-11 mx-auto">
       <div class="card h-95">
         <img src="/assets/image-placeholder.svg" class="card-img-top" alt="" height="auto">
@@ -149,11 +317,53 @@
           </div>
           <br>
           <div class="container-fluid">
-            <a href="#" class="btn btn-success d-grid col-4 mx-auto">See Project</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success d-grid col-4 mx-auto" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <button type="button" class="btn-close bg-secondary" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                  <div class="modal-header">
+                    <img src="./assets/project-detail-img.svg" alt="Project Detail Image" class="img-fluid">
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <h5 class="modal-title col-8" id="staticBackdropLabel">Keeping track of hundreds of
+                        components</h5>
+                      <button type="button" class="btn btn-success col p-1" data-bs-dismiss="modal">See live</button>
+                      <button type="button" class="btn btn-success col p-1">See source</button>
+                    </div>
+                    <div>
+                      <span class="badge bg-light text-secondary mt-3">Codekit</span>
+                      <span class="badge bg-light text-secondary mt-3">GitHub</span>
+                      <span class="badge bg-light text-secondary mt-3">JavaScript</span>
+                      <span class="badge bg-light text-secondary mt-3">Bootstrap</span>
+                      <span class="badge bg-light text-secondary mt-3">Terminal</span>
+                      <span class="badge bg-light text-secondary mt-3">Codepen</span>
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been
+                      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                      1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="col-11 mx-auto">
       <div class="card h-95">
         <img src="/assets/image-placeholder.svg" class="card-img-top" alt="" height="auto">
@@ -167,7 +377,48 @@
           </div>
           <br>
           <div class="container-fluid">
-            <a href="#" class="btn btn-success d-grid col-4 mx-auto">See Project</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success d-grid col-4 mx-auto" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <button type="button" class="btn-close bg-secondary" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                  <div class="modal-header">
+                    <img src="./assets/project-detail-img.svg" alt="Project Detail Image" class="img-fluid">
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <h5 class="modal-title col-8" id="staticBackdropLabel">Keeping track of hundreds of
+                        components</h5>
+                      <button type="button" class="btn btn-success col p-1" data-bs-dismiss="modal">See live</button>
+                      <button type="button" class="btn btn-success col p-1">See source</button>
+                    </div>
+                    <div>
+                      <span class="badge bg-light text-secondary mt-3">Codekit</span>
+                      <span class="badge bg-light text-secondary mt-3">GitHub</span>
+                      <span class="badge bg-light text-secondary mt-3">JavaScript</span>
+                      <span class="badge bg-light text-secondary mt-3">Bootstrap</span>
+                      <span class="badge bg-light text-secondary mt-3">Terminal</span>
+                      <span class="badge bg-light text-secondary mt-3">Codepen</span>
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been
+                      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                      1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -175,7 +426,7 @@
   </div>
   <br><br><br>
   <!-- About Me Section -->
-  <h2 class="text-center">About Me</h2>
+  <h2 class="text-center" id="about">About Me</h2>
   <br><br>
   <p class="h3 text-center col-6 mx-auto"> I can help you build a product, feature or website Look through some of my
     work and
@@ -237,7 +488,7 @@
   </div>
 
   <!-- Contact Form Section -->
-  <div class="container-fluid d-grid">
+  <div class="container-fluid d-grid" id="contact">
     <div class="row">
       <div class="col-4 pt-5">
         <h2 class="h1 mx-auto pb-5 pt-5">I'm always interested in hearing about new projects, so if you'd like to chat
